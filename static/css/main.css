@@ -73,7 +73,7 @@ a {
 }
 
 a:hover {
-  color: color-mix(in srgb, var(--accent-color), transparent 0%);
+  color: color-mix(in srgb, var(--accent-color), transparent 25%);
   text-decoration: none;
 }
 
@@ -461,7 +461,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+  padding: 100px 0;
   overflow: clip;
 }
 
@@ -1449,43 +1449,4 @@ section,
   font-size: 20px;
   margin-right: 8px;
   color: var(--accent-color);
-}
-
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  .starter-section {
-    background-color: #f8f9fa; /* Warna latar belakang */
-    padding: 60px 0; /* Padding atas dan bawah */
-    text-align: center; /* Memusatkan teks */
-  }
-  
-  .starter-section h2 {
-    font-size: 2.5rem; /* Ukuran font untuk judul */
-    color: #333; /* Warna teks judul */
-    margin-bottom: 20px; /* Jarak bawah judul */
-  }
-  
-  .starter-section p {
-    font-size: 1.2rem; /* Ukuran font untuk paragraf */
-    color: #666; /* Warna teks paragraf */
-    max-width: 600px; /* Lebar maksimum paragraf */
-    margin: 0 auto; /* Memusatkan paragraf */
-  }
-  
-  .starter-section .btn {
-    margin-top: 20px; /* Jarak atas tombol */
-    padding: 10px 20px; /* Padding untuk tombol */
-    background-color: #007bff; /* Warna latar belakang tombol */
-    color: #fff; /* Warna teks tombol */
-    border: none; /* Menghilangkan border */
-    border-radius: 5px; /* Sudut bulat pada tombol */
-    cursor: pointer; /* Mengubah kursor saat hover */
-    transition: background-color 0.3s; /* Animasi transisi warna */
-  }
-  
-  .starter-section .btn:hover {
-    background-color: #0056b3; /* Warna latar belakang tombol saat hover */
-  }  
 }

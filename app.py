@@ -11,7 +11,7 @@ app.secret_key = 'many random bytes'
 
 @app.route("/")
 def home():
-    return render_template('index.html')
+    return render_template('index1.html')
 
 if __name__ == "__main__":
     app.run(debug=True, port=8080)
